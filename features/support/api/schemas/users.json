@@ -1,0 +1,73 @@
+{
+  "type": "object",
+  "properties": {
+    "offset": {
+      "type": "integer"
+    },
+    "limit": {
+      "type": "integer"
+    },
+    "items": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "username": {
+              "type": "string"
+            },
+            "active": {
+              "type": "boolean"
+            },
+            "firstName": {
+              "type": "string"
+            },
+            "middleName": {
+              "type": "string"
+            },
+            "lastName": {
+              "type": "string"
+            },
+            "departmentId": {
+              "type": "integer"
+            },
+            "timeZoneGroupId": {
+              "type": "integer"
+            },
+            "hired": {
+              "type": "string",
+              "format": "full-date"
+            },
+            "email": {
+              "type": "string"
+            },
+            "fullName": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "username",
+            "active",
+            "firstName",
+            "middleName",
+            "lastName",
+            "departmentId",
+            "timeZoneGroupId",
+            "hired",
+            "email",
+            "fullName"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "offset",
+    "limit",
+    "items"
+  ]
+}

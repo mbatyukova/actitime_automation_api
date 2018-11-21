@@ -1,0 +1,11 @@
+USERNAME_FIELD = 'username'
+PASSWORD_FIELD = 'pwd'
+LOGIN_BUTTON = 'loginButton'
+LOGOUT_LINK = 'a#logoutLink'
+USER_PROFILE_LINK = 'a.userProfileLink.username'
+USERNAME = 'input#userProfilePopup_usernameField'
+
+SYSTEM_SETTINGS_PAGE_URL = '/administration/settings.do?noReload=false'
+SYSTEM_OPTIONS_CHECKBOX = 'input.checkbox.checkboxInput'
+SAVE_SETTINGS = 'saveSettingsButton'
+HIDE_USERS_OPTION = 'Hide not assigned users from the User List.'

@@ -1,0 +1,24 @@
+{
+  "type": "object",
+  "properties": {
+    "dateFrom": {
+      "type": "string",
+      "format": "full-date"
+    },
+    "dateTo": {
+      "type": "string",
+      "format": "full-date"
+    },
+    "schedule": {
+      "type": "array",
+      "contains": {
+        "type": "integer"
+      }
+    }
+  },
+  "required": [
+    "dateFrom",
+    "dateTo",
+    "schedule"
+  ]
+}
